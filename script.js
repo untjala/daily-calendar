@@ -1,3 +1,6 @@
+var container = $(".container");
+var timeSlots = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM", "5PM", "6PM"]
+
 // GIVEN I am using a daily planner to create a schedule
 // WHEN I open the planner
 // THEN the current day is displayed at the top of the calendar
