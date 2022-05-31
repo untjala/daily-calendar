@@ -3,6 +3,7 @@
 // THEN the current day is displayed at the top of the calendar
 var currentTime = moment().format("MMMM Do YYYY")
 var containerEl = $(".container")
+console.log("hello!");
 // WHEN I scroll down
 // THEN I am presented with time blocks for standard business hours
 // WHEN I view the time blocks for that day
