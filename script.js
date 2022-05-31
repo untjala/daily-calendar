@@ -28,11 +28,12 @@ function showColors() {
 showColors();
 
 $(".saveBtn").on("click", function () {
-    var text = $(this).siblings(".description").val();
+    console.log(this)
+    var input = $(this).siblings(".event").val();
     var time = $(this).parent().attr("id");
-    localStorage.setItem(time, text);
-})  
-})
+    localStorage.setItem(time, input);
+}) 
+$("#9 .event").val(localStorage.getItem("9"));
 // WHEN I click into a time block
 // THEN I can enter an event
 // WHEN I click the save button for that time block
