@@ -1,3 +1,4 @@
+$("#currentDay").text(moment().format("dddd, MMMM Do"));
 //Function to display colors based on the hour of the day, tracked through Moment.
 function showColors() {
     //Moment pulls the users current hour.
